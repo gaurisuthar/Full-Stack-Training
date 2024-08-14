@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 70px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+#logo{
+    height:70px ;
+    width: 250px;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+#res-items{
+    height: 70px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#res-items img{
+    height: 32px;
+    width: 32px;
+    margin: 6px;
+}
+
+#close{
+    height: 70px;
+    width: 290px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#close img{
+    height: 18px;
+    width: 18px;
+    margin-right: 15px;
+}
+
+#main-img{
+   height: 800px;
+   width: 100%;
+   background-image: url("./assets/pexelsphoto1927507.jpeg");
+   background-size: cover;
+   /* display: flex; */
+   position: relative;
+}
+
+#text{
+    color: white;
+    position: absolute;
+    text-align: start;
+    top: 20%;
+    left: 14%;
+    
+}
+
+#art{
+    font-size: 65px;
+}
+
+#school{
+    font-size: 105px;
+    margin-top: 340px;
+}
+
+#about-us{
+    height: 500px;
+    width: 100%;
+    background-color: #7da2a9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#heading-one{
+    height: 350px;
+    margin-top: 180px;
+    text-align: end;
+}
+
+#child{
+    color: white;
+    font-size: 27px;
+}
+
+#scl{
+    font-size: 25px;
+    margin-top: 20px;
+}
+#heading-two{
+    height: 350px;
+    margin-left: 70px;
+    margin-top: 170px;
+    margin-right: 200px;
+}
+
+#heading-two p{
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+
+}
+
+#program{
+    height: 1000px;
+    width: 100%;
+}
+
+#pgm{
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#pgms{
+    padding-top: 120px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#pgm p{
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+#all-pgms{
+    height: 650px;
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 70px;
+}
+
+.pg{
+    height: 230px;
+    width: 350px;
+}
+
+.pg i{
+    font-size: 3em;
+    font-weight: 100;
+    color: #7da2a9;
+}
+
+.pg h1{
+    margin-top: 20px;
+}
+
+.pg p{
+    margin-top: 25px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+#read{
+    height: 650px;
+    width: 100%;
+    background-color: #18181e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#book-img{
+    height: 650px;
+    margin-top: 150px;
+}
+
+#book-img img{
+    height: 500px;
+    width: 550px;
+}
+
+#read-text{
+    height: 500px;
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#read-text h1{
+    color: white;
+    margin-top: 50px;
+}
+
+#read-text p{
+    margin-top: 25px;
+    font-weight: 500;
+    color: white;
+    line-height: 25px;
+}
+
+#read-text #btn{
+    height: 50px;
+    width: 130px;
+    background-color: #7da2a9;
+    color: white;
+    border: none;
+    margin-top: 60px;
+    font-size: 17px;
+}
+
+#gallery{
+    height: 1400px;
+    width: 100%;
+    background-color: red;
+    
+}
+
+#our-gallery{
+    height: 200px;
+    width: 40%;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+}
+#images{
+    height: 1400px;
+    width: 100%;
+    background-color: pink;
+    
+}

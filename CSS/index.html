@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        h1{
+            background-color: beige;
+            color: brown;
+        }
+        #text{
+            background-color: cadetblue;
+            color: pink;
+            font-size: 30px;
+            font-weight: 600;
+            font-family: monospace;
+            font-style: italic;
+            text-decoration: underline;
+            text-transform: capitalize;
+            text-align: center;
+            line-height: 50px;
+            letter-spacing: 5px;
+            word-spacing: 5px;
+        }
+
+        #container{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 2px solid black;
+            animation: spinner 4s ease-in-out infinite;
+        }
+        #child{
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border-radius: 50%;
+            transform: translate(15px,15px);
+        }
+
+        @keyframes spinner {
+            from{
+                transform: rotate(0 deg);
+            } to{
+                transform: rotate(100 deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Let's start CSS</h1>
+    <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dicta id vero. Minima corrupti assumenda voluptate quo rerum,
+        repellendus obcaecati veniam eum distinctio odio, atque iusto mollitia nobis rem placeat sapiente sequi,
+        totam ducimus ex blanditiis? Repellat commodi explicabo facilis accusantium nostrum officiis, ad dolor.</p>
+
+    <div id="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quibusdam accusamus accusantium. Debitis tempora veritatis architecto quisquam unde iure nihil dolorum quo possimus eveniet magni quae saepe omnis, aperiam excepturi nesciunt, dolore officiis nemo sit? Atque iste, iure laboriosam rem quidem iusto incidunt hic sed blanditiis dignissimos eaque eligendi velit similique magnam autem tenetur vel.</p>
+    </div>
+
+    <div id="container">
+        <div id="child"></div>
+    </div>
+</body>
+</html>
