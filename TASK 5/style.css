@@ -12,7 +12,7 @@ html,body{
 
 #header{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     position: relative;
     z-index: 1;
@@ -57,7 +57,7 @@ html,body{
 
 #nav{
     height: 12vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
@@ -89,6 +89,13 @@ html,body{
 #abt{
     color: cornflowerblue;
 }
+
+#main{
+    height: 80vh;
+    width: 100%;
+    background-color: red;
+}
+
 
 @media (max-width: 1008px) {
     #nav-items h3 {
