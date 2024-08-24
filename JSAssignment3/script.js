@@ -1,3 +1,14 @@
+// 1. Write a JavaScript program that uses the `push()` method to add an element to an array.
+// 2. Create a JavaScript program that removes the last element from an array using the `pop()`
+// method.
+// 3. Use the `shift()` method to remove the first element from an array.
+// 4. Write a program that adds an element to the beginning of an array using the `unshift()` method.
+// 5. Modify an array by removing and/or adding elements using the `splice()` method.
+// 6. Use the `slice()` method to create a new array from a portion of an existing array.
+// 7. Find the index of an element in an array using the `indexOf()` method.
+// 8. Create a new array by transforming each element in an existing array using the `map()` method.
+// 9. Filter elements from an array that meet a certain condition using the `filter()` method.
+// 10. Write a program that calculates a single value from an array using the `reduce()` method.
 //Q1
 let arr=[1,2,3,4,5];
 arr.push(6);

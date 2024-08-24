@@ -1,3 +1,32 @@
+// 1. Basic Function:
+//  Write a function named `sayHello` that takes no parameters and returns the string "Hello, World!".
+// 2. Function with Parameters:
+//  Create a function `doubleNumber` that takes a number as an argument and returns the number
+// multiplied by 2.
+// 3. Simple Return Function:
+//  Write a function `addTwoNumbers` that accepts two numbers as arguments and returns their sum.
+// 4. Arrow Function:
+//  Convert the `doubleNumber` function from question 2 into an arrow function.
+// 5. Arithmetic Operator:
+//  Create a function `subtractTen` that takes a number as an argument and returns the result of
+// subtracting 10 from it.
+// 6. Comparison Operator:
+//  Write a function `isGreaterThanFive` that takes a number as an argument and returns `true` if the
+// number is greater than 5, otherwise `false`.
+// 7. Logical Operator:
+//  Write a function `isBetweenOneAndTen` that takes a number as an argument and returns `true` if
+// the number is between 1 and 10 (inclusive), otherwise `false`.
+// 8. If-Else Statement:
+//  Write a function `isEven` that takes a number as an argument and returns "Even" if the number is
+// even, and "Odd" if the number is odd.
+// 9. Ternary Operator:
+//  Write a function `checkAge` that takes an age as an argument and returns "Adult" if the age is 18
+// or above, and "Minor" if the age is below 18. Implement this using the ternary operator.
+// 10. Switch Statement:
+//  Create a function `getDayType` that takes a number (1-7) as an argument and returns:
+//  - "Weekend" if the number is 6 (Saturday) or 7 (Sunday),
+//  - "Weekday" if the number is between 1 and 5.
+//  Use a `switch` statement to implement this logic.
 //Q1
 function sayHello(){
     return "Hello, World!";
