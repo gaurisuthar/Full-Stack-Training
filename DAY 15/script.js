@@ -84,21 +84,21 @@
 // })
 
 //promises
-// function fetchData(){
-//     return new Promise((resolve,reject)=>{
-//         setTimeout(()=>{
-//             try {
-//                 let data={
-//                     firstName:"Gauri",
-//                     lastName:"Suthar"
-//                 };
-//                 return resolve(data);
-//             } catch (error) {
-//                 return reject(error);
-//             }
-//         },2000);
-//     })
-// }
+function fetchData(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            try {
+                let data={
+                    firstName:"Gauri",
+                    lastName:"Suthar"
+                };
+                return resolve(data);
+            } catch (error) {
+                return reject(error);
+            }
+        },2000);
+    })
+}
 
 
 // let fetchedData=fetchData();
@@ -138,21 +138,35 @@
 //     console.log(e);
 // })
 
-document.getElementById("product-button").addEventListener("click",function(){
-    fetch("https://fakestoreapi.com/products")
-    .then((res)=>{
-        res.json();
-    })
-    .then((data)=>{
-        data.forEach((item)=>{
-            let newDiv=document.createElement("div");
-            newDiv.innerHTML=`<img src=${item.image} alt='Product-Image'>
-            <h3>${item.title}</h3><p>${item.price}</p>`;
-            let myDiv=document.getElementById("products");
-            myDiv.appendChild(newDiv);
-        })
-    })
-    .catch((error)=>{
-        console.log(error);
-    })
-});
+// document.getElementById("product-button").addEventListener("click",function(){
+//     fetch("https://fakestoreapi.com/products")
+//     .then((res)=>{
+//         res.json();
+//     })
+//     .then((data)=>{
+//         data.forEach((item)=>{
+//             let newDiv=document.createElement("div");
+//             newDiv.innerHTML=`<img src=${item.image} alt='Product-Image'>
+//             <h3>${item.title}</h3><p>${item.price}</p>`;
+//             let myDiv=document.getElementById("products");
+//             myDiv.appendChild(newDiv);
+//         })
+//     })
+//     .catch((error)=>{
+//         console.log(error);
+//     })
+// });
+
+//Async,Await
+
+async function fetchUserData(){
+    try{
+        let response=await fetchData();
+        console.log(response);
+    } catch(e){
+        console.log(e);
+    }
+    
+}
+
+fetchUserData();
