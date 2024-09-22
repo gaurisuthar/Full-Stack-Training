@@ -16,9 +16,9 @@ function ProductDetail() {
 
   return (
     <div className="container mx-auto p-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <img src={product.image} alt={product.title} className="w-full h-auto object-cover" />
-        <div>
+      <div className="flex flex-col md:flex-row gap-4">
+        <img src={product.image} alt={product.title} className="w-full md:w-1/2 h-auto object-cover" />
+        <div className="flex flex-col justify-center">
           <h1 className="text-3xl font-bold mb-4">{product.title}</h1>
           <p className="text-gray-600 mb-4">{product.description}</p>
           <p className="text-2xl font-semibold">${product.price}</p>
