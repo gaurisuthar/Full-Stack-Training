@@ -11,6 +11,13 @@
             border: 2px solid black;
             background-color: red;
         }
+        .hidden {
+            display: none; 
+        }
+        #currentTime {
+            font-size: 24px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -23,6 +30,52 @@
         <li>Code</li>
     </ul>
     <button id="btn">Create list</button>
+    <ul id="itemList"></ul>
+        <li>
+            EAT<button class="removeBtn">Remove</button>
+        </li>
+        <li>
+            SLEEP<button class="removeBtn">Remove</button>
+        </li>
+        <li>
+           CODE<button class="removeBtn">Remove</button>
+        </li>
+    </ul>
+
+    <h1>User Information Form</h1>
+    <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="thankYouMessage"></p>
+
+    <button id="alertButton">Click Me!</button>
+    <br><br>
+
+    <button id="toggleButton">Toggle Button</button>
+    <div id="toggleElement" class="hidden">This is a toggle elements</div>
+    <br><br>
+    <label for="inputField">Enter something: </label>
+    <input type="text" id="inputField" placeholder="Type here">
+    <button id="displayBtn">Display</button>
+    <p id="displayArea"></p>
+    <br><br>
+    <h2>HTML Content Example</h2>
+    <div id="myElement">
+        <strong>This is bold text</strong> and this is <em>italic text</em>.
+    </div>
+
+    <button id="getInnerHTML">Get innerHTML</button>
+    <button id="getTextContent">Get textContent</button>
+
+    <h2>Results:</h2>
+    <p id="innerHTMLResult"></p>
+    <p id="textContentResult"></p>
+
+    <h1>Current Time</h1>
+    <div id="currentTime">Loading...</div>
+
     <script src="script.js"></script>
 </body>
 </html>
