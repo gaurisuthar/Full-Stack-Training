@@ -89,32 +89,50 @@ html,body{
     border: 3px solid white;
 }
 
-#foot{
-    height: 90px;
-    background-color: beige;
-}
-#foot h2{
-    font-weight: 800;
-}
-#sign-up{
-    padding-top: 40px;
-    padding-left: 30px;
+#footer{
+    width: 100%;
+    height: 105px;
+    background-color: #F5F1E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#foot-right {
+#sign{
+    margin-top: 10px;
+    width: 500px;
+    height: 50%;
+    /* background-color: yellow; */
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-  }
-  
-  #inp {
-    margin-right: 100px; /* Adjust spacing as needed */
-  }
-  
-  #inp input[type="email"] {
-    padding: 8px; 
-    border: 1px solid #ccc;
-    border-radius: 4px; /* Adjust border radius as needed */
-  }
-  
- 
+    margin-left: 70px;
+
+}
+
+#indexBtn {
+    margin-top: 10px;
+    /* width: 500px; */
+    height: 50%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#inpt input{
+    width: 350px;
+    height: 50px;
+    margin-left: 250px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#btn3 button {
+    width: 150px;
+    height: 50px;
+    margin-right: 200px;
+    font-size: 20px;
+    background-color: #5BB6D0;
+    border: none;
+    color: white;
+}
