@@ -3,39 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook - Log In or Sign Up</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="head">
-            <p class="label">Email or phone</p>
-            <input class="email" type="text" name="email">
-            <p class="">password</p>
-            <input class="password" type="password" name="password">
-            <p class="acnt">Forgotten acount?</p>
-            <button class="btn">Log in</button>
-    </div>
-    <div class="main">
-        <div class="inp">
-        <h1>Create an account</h1>
-        <p>It's free and always will be.</p>
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Surname">
-        <br>
-        <input type="email" placeholder="Mobile number or email">
-        <br>
-        <input type="password" placeholder="New password">
-        <p>Birthday</p>
-        <select name="birthday_day" id="birthday_day">
-            <option value="" disabled selected>Day</option>
-        </select>
-        <select name="birthday_month" id="birthday_month">
-            <option value="" disabled selected>Month</option>
-        </select>
-        <select name="birthday_year" id="birthday_year">
-            <option value="" disabled selected>Year</option>
-        </select>
+    <div class="header">
+        <div class="logo"></div>
+        <div class="login-container">
+            <form class="login-form">
+                <div class="login-fields">
+                    <input type="text" placeholder="Email or Phone" class="login-input">
+                    <input type="password" placeholder="Password" class="login-input">
+                    <button type="submit" class="login-btn">Log In</button>
+                </div>
+                <a href="#" class="forgot-password">Forgotten account?</a>
+            </form>
         </div>
+    </div>
+
+    <div class="main-content">
+        <div class="signup-container">
+            <h1>Create an account</h1>
+            <p>It's free and always will be.</p>
+            <form class="signup-form">
+                <div class="name-fields">
+                    <input type="text" placeholder="First Name" class="signup-input">
+                    <input type="text" placeholder="Surname" class="signup-input">
+                </div>
+                <input type="text" placeholder="Mobile number or email" class="signup-input full-width">
+                <input type="password" placeholder="New password" class="signup-input full-width">
+                
+                <label class="birthday-label">Birthday</label>
+                <div class="birthday-select">
+                    <select>
+                        <option>Day</option>
+                        <!-- Add more days -->
+                    </select>
+                    <select>
+                        <option>Month</option>
+                        <!-- Add more months -->
+                    </select>
+                    <select>
+                        <option>Year</option>
+                        <!-- Add more years -->
+                    </select>
+                    <a href="#" class="birthday-info">Why do I need to provide my date of birth?</a>
+                </div>
+                
+                <div class="gender-section">
+                    <label><input type="radio" name="gender"> Female</label>
+                    <label><input type="radio" name="gender"> Male</label>
+                </div>
+                
+                <p class="terms-text">By clicking Create an account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</p>
+                <button type="submit" class="signup-btn">Create an account</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul class="languages">
+            <li><a href="#">English (UK)</a></li>
+            <li><a href="#">हिन्दी</a></li>
+            <li><a href="#">ਪੰਜਾਬੀ</a></li>
+            <li><a href="#">தமிழ்</a></li>
+            <li><a href="#">বাংলা</a></li>
+            <li><a href="#">मराठी</a></li>
+            <li><a href="#">ગુજરાતી</a></li>
+            <li><a href="#">తెలుగు</a></li>
+            <li><a href="#">ಕನ್ನಡ</a></li>
+            <li><a href="#">മലയാളം</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Messenger</a></li>
+            <li><a href="#">Facebook Lite</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Meta Pay</a></li>
+            <li><a href="#">Meta Store</a></li>
+            <li><a href="#">Meta Quest</a></li>
+        </ul>
     </div>
 </body>
 </html>
