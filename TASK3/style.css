@@ -101,12 +101,20 @@ html,body{
     padding-left: 30px;
 }
 
-#foot-right{
+#foot-right {
     display: flex;
     justify-content: flex-end;
-}
-
-#inp{
-
-}
-
+    align-items: center;
+  }
+  
+  #inp {
+    margin-right: 100px; /* Adjust spacing as needed */
+  }
+  
+  #inp input[type="email"] {
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Adjust border radius as needed */
+  }
+  
+ 
