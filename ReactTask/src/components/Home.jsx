@@ -21,8 +21,8 @@ function Home() {
             <h2 className="text-xl font-semibold">{product.title}</h2>
             <p className="text-gray-600">${product.price}</p>
             <Link 
-            to={`/product/${product.id}`} 
-            className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+            to={`/product/${product.id}`}s
+            className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg target=_ hover:bg-blue-600 transition-colors duration-300">
             View Details
             </Link>
           </div>
