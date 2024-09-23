@@ -234,9 +234,21 @@ html,body{
     margin: auto;
     text-align: center;
 }
-#images{
+#images {
     height: 1400px;
     width: 100%;
     background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images */
     
+}
+
+.image {
+    width: calc(50% - 20px); /* Adjust width to 50% minus gap */
+}
+
+.image img {
+    height: 400px;
+    width: 400px; /* Make images responsive */
 }
